@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="./assets/css/styleCari.css" />
+  </head>
+  <style>
+    body{
+      justify-content: center;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div class="daftar-akun-pencari">
+      <div class="frame">
+        <img class="vector" src="./assets/images/vector.svg" id="vector" href="rekomendasiKost.html" />
+        <div class="div">
+          <img class="search" src="./assets/images/search.svg" />
+          <div class="group">
+            <div class="text-wrapper">
+              <input
+                type="text"
+                class="search"
+                placeholder="Masukkan daerah/lokasi"
+              />
+            </div>
+          </div>
+          <div class="frame-wrapper">
+            <div class="div-wrapper">
+              <div class="text-wrapper-2">Cari</div>
+            </div>
+          </div>
+        </div>
+        <div class="icon-wrapper">
+          <img
+            class="icon"
+            id="icon"
+            src="./assets/images/icon.svg"
+            href="./filter.html"
+          />
+        </div>
+      </div>
+      <div class="frame-2">
+        <div class="text-wrapper-3">Pencarian Populer</div>
+        <div class="frame-3">
+          <div class="frame-4"><div class="text-wrapper-4">UGM</div></div>
+          <div class="frame-4"><div class="text-wrapper-4">Unpat</div></div>
+          <div class="frame-4"><div class="text-wrapper-4">UI</div></div>
+          <div class="frame-4"><div class="text-wrapper-4">Brawijawa</div></div>
+          <div class="frame-4"><div class="text-wrapper-4">ITB</div></div>
+          <div class="frame-4">
+            <div class="text-wrapper-4">Diponegoro</div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-5"><div class="text-wrapper-3">Kota</div></div>
+      <div class="frame-6">
+        <div class="frame-7">
+          <select class="selectOptions">
+            <option value="option1">Jakarta</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
+        <div class="frame-7">
+          <select class="selectOptions">
+            <option value="option1">Yogyakarta</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
+        <div class="frame-7">
+          <select class="selectOptions">
+            <option value="option1">Bogor</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
+        <div class="frame-7">
+          <select class="selectOptions">
+            <option value="option1">Bandung</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
+        <div class="frame-7">
+          <select class="selectOptions">
+            <option value="option1">Aceh</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
+        <div class="frame-7">
+          <select class="selectOptions">
+            <option value="option1">Medan</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
+        <div class="frame-7">
+          <select class="selectOptions">
+            <option value="option1">Padang</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
+        <div class="frame-7">
+          <select class="selectOptions">
+            <option value="option1">Lampung</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
+        <div class="frame-7">
+          <select class="selectOptions">
+            <option value="option1">Palembang</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("icon").addEventListener("click", function () {
+        window.location.href = "filter.html";
+      });
+      
+      document.getElementById("vector").addEventListener("click", function () {
+        window.location.href = "rekomendasiKost.html";
+      });
+    </script>
+  </body>
+</html>

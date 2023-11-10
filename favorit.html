@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/stylefavorit.css" />
+    <link rel="stylesheet" href="assets/css/stylepopup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <title>Informasi Pribadi</title>
+  </head>
+  <body>
+    <section>
+      <nav>
+        <div class="logo">
+          <p>PADLOCK</p>
+        </div>
+        <div class="navlist">
+          <ul>
+            <li><a href="">Favorit</a></li>
+            <li><a onclick="toggleChat()" class="toggle-chat">Chat</a></li>
+            <li><a onclick="toggleNotif()" class="toggle-notif">Notifikasi</a></li>
+          </ul>
+        </div>
+
+        <div class="chat">
+          <img
+            class="undraw-share-opinion"
+            src="./assets/images/chat.svg"
+          />
+          <p class="text-wrapper">Tidak ada percakapan saat ini</p>
+        </div>
+
+        <div class="notif">
+          <img
+            class="undraw-notify-re"
+            src="./assets/images/notif.svg"
+          />
+          <p class="text-wrapper">Tidak ada Notifikasi</p>
+        </div>
+
+        
+        <div class="profile">
+          <div class="profile-dropdown">
+            <a href="#"><i class="bi bi-person-circle"></i></a>
+            <div class="dropdown-content">
+              <div class="profile-info">
+                <i class="bi bi-person-circle" id="profile-image" ></i>
+                <p class="profile-name">Nama Anda</p>
+              </div>
+              <a href="index.html" ><svg xmlns="http://www.w3.org/2000/svg" style="padding-right: 8px; padding-top: 1.5px; padding-bottom :5px;" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+              </svg>Keluar</a>
+            </div>
+          </div>
+        </div>
+      
+      </nav>
+      <div class="place">
+        <p><a href="rekomendasiKost.html" style="text-decoration: none; color: black;">Home  </a>  <svg xmlns="http://www.w3.org/2000/svg" style="padding-left: 10px; padding-right : 11px; padding-top : 5px;" width="16" height="10" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+        </svg> <a href="informasipribadi.html" style="text-decoration: none; color: black;">User</a>  <svg xmlns="http://www.w3.org/2000/svg" style="padding-left: 10px; padding-right : 11px; padding-top : 5px;" width="16" height="10" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg> <a href="favorit.html" style="text-decoration: none; color: black; font-weight: bold; ">Favorit </a> </p>
+      </div>
+
+    <div class="content" style="justify-content: center; text-align: center;">
+        <div class="link-kanan-kiri" style="justify-content: center; text-align: center; font-size: 18px;">
+            <a href="favorit.html" style=" text-decoration: none; color: black; border-bottom: 2px solid #0684CB;">Difavoritkan</a>
+            <a href="pernahdilihat.html" style=" text-decoration: none; color: grey; ">Pernah Dilihat</a>
+        </div>
+        <h1 style="margin-top: 100px;">Belum Ada Kost yang di Favorit</h1>
+        <img src="assets/images/pernahdilihat.jpg" style="width: 500px; height: 400px; margin-top: 50px;">
+  
+    
+  
+    </div>
+    </section>
+
+    <script src="./assets/js/scriptpopup.js"></script>
+  </body>
+</html>

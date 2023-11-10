@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar</title>
+    <link rel="stylesheet" href="assets/css/styleregis.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #fefefe;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container-register" style="width: 400px; margin-top: 20px;" >
+        <div id="title">
+            <span class="span"></span><a href="formloginpencarikost.html" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+              </svg></a> Daftar Akun Pencari Kost
+        </div>
+
+        <form action="formloginpencarikost.html">
+            <div class="inputContainer">
+                <input required="required" class="customInput" type="email" id="email" name="email" placeholder="">
+                <label class="inputLabel">Email</label>
+                <div class="inputUnderline"></div>
+            </div>
+
+            <div class="inputContainer">
+                <input required="required" class="customInput" type="name" id="name" name="name" placeholder="">
+                <label class="inputLabel">Nama Lengkap</label>
+                <div class="inputUnderline"></div>
+            </div>
+
+            <div class="inputContainer">
+                <input required="required" class="customInput" type="phone" id="phone" name="phone" placeholder="">
+                <label class="inputLabel">Nomor Telepon</label>
+                <div class="inputUnderline"></div>
+            </div>
+            
+            <div class="inputContainer">
+                <input required="" class="customInput" type="password" placeholder="">
+                <label class="inputLabel" style="padding: 0px;">Password</label>
+                <div class="inputUnderline" style=" height: 1px;"></div>
+              </div>
+            
+
+            <div class="remember-me">
+                <input type="checkbox">
+                <span style="color: #000000">I accept Terms of Service</span>
+            </div>
+        
+            <div class="" style="justify-content: center; text-align: center;">
+               <a href="formloginpencarikost.html"> <button id="register-link" > Daftar</button>
+            </div>  
+        </form>
+
+        <div class="register" style=" gap: 10px; ">
+           <p >Do you already have an account?</p>
+           <span class="span"> <a href="formloginpencarikost.html"  style="color: blue;text-decoration: none;">Log In here</a></span>
+        </div>
+    </div>
+</body>
+
+</html>

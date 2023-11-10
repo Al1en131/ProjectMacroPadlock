@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/stylepengajuan.css" />
+    <link rel="stylesheet" href="assets/css/stylepopup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+  <!-- 
+
+
+  
+  - google font link
+-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <title>Informasi Pribadi</title>
+  </head>
+  <body>
+    <section id="Riwayat">
+      <nav>
+        <div class="logo">
+          <p>PADLOCK</p>
+        </div>
+        <div class="navlist">
+          <ul>
+            <li><a href="favorit.html">Favorit</a></li>
+            <li><a onclick="toggleChat()" class="toggle-chat">Chat</a></li>
+            <li><a onclick="toggleNotif()" class="toggle-notif">Notifikasi</a></li>
+          </ul>
+        </div>
+
+        <div class="chat">
+          <img
+            class="undraw-share-opinion"
+            src="./assets/images/chat.svg"
+          />
+          <p class="text-wrapper">Tidak ada percakapan saat ini</p>
+        </div>
+
+        <div class="notif">
+          <img
+            class="undraw-notify-re"
+            src="./assets/images/notif.svg"
+          />
+          <p class="text-wrapper">Tidak ada Notifikasi</p>
+        </div>
+    
+          <div class="profile">
+            <div class="profile-dropdown">
+              <a href="#"><i class="bi bi-person-circle"></i></a>
+              <div class="dropdown-content">
+                <div class="profile-info">
+                  <i class="bi bi-person-circle" id="profile-image" ></i>
+                  <p class="profile-name">Nama Anda</p>
+                </div>
+                <a href="index.html" ><svg xmlns="http://www.w3.org/2000/svg" style="padding-right: 8px; padding-top: 1.5px; padding-bottom :5px;" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                  <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                </svg>Keluar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="place">
+        <p><a href="rekomendasiKost.html" style="text-decoration: none; color: black;">Home  </a>  <svg xmlns="http://www.w3.org/2000/svg" style="padding-left: 10px; padding-right : 11px; padding-top : 5px;" width="16" height="10" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+        </svg> <a href="informasipribadi.html" style="text-decoration: none; color: black; font-weight: bold;">User</a>   </p>
+      </div>
+      <div class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="informasipribadi.html"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+              <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+            </svg>Informasi Pribadi</a></li>
+            <li><a href="kossaya.html"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;" width="16" height="16" fill="currentColor" class="bi bi-house-check" viewBox="0 0 16 16">
+              <path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"/>
+              <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.707l.547.547 1.17-1.951a.5.5 0 1 1 .858.514Z"/>
+            </svg>Kost Saya</a></li>
+            <li><a href="pengajuan.html"style="font-weight: bold;  border-bottom: 1.5px solid black; "><svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+              <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+              <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+            </svg>Riwayat Pengajuan Sewa</a></li>
+            <li><a href="rwayatkos.html"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+              <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
+            </svg>Riwayat Kost</a></li>
+            <li><a href="rtransaksi.html"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;" width="16" height="16" fill="currentColor" class="bi bi-cash-stack" viewBox="0 0 16 16">
+              <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+              <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"/>
+            </svg>Riwayat Transaksi</a></li>
+            <li><a href="verifikasi.html"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 10px;" width="16" height="16" fill="currentColor" class="bi bi-person-check" viewBox="0 0 16 16">
+              <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+              <path d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"/>
+            </svg>Verifikasi Akun</a></li>
+        </ul>
+    </div>
+    <div class="content">
+      <div class="card">
+          <u5>
+         
+            <li><a href="#Riwayat" style="font-weight: bold;  border-bottom: 1.5px solid black; ">Riwayat</a></li>
+            <li><a href="draft.html">Draft</a></li>
+            
+          </u5>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="300" height="300" viewBox="0 0 649.67538 226.1298" xmlns:xlink="http://www.w3.org/1999/xlink"><path id="bcc0edba-f0dd-423b-bdfc-f2fa10ec70b3-574" data-name="Path 680" d="M363.08335,336.9351a3.78766,3.78766,0,0,0,0,7.57532H439.9178a3.78766,3.78766,0,1,0,0-7.57532Z" transform="translate(-275.16231 -336.9351)" fill="#3f3d56"/><path id="fa56b25f-6ad1-4bb0-b587-f288aecf2229-575" data-name="Path 681" d="M363.08335,359.25074a3.78767,3.78767,0,0,0,0,7.57533H439.9178a3.78767,3.78767,0,0,0,0-7.57533Z" transform="translate(-275.16231 -336.9351)" fill="#3f3d56"/><path id="b413f49f-a7ee-4528-83fd-849b3d17d98f-576" data-name="Path 682" d="M401.50117,430.02472a23.84091,23.84091,0,1,1,23.84091-23.842h0A23.86874,23.86874,0,0,1,401.50117,430.02472Z" transform="translate(-275.16231 -336.9351)" fill="#e4e4e4"/><path id="ba255611-006f-40c2-b981-3cbda4cfa311-577" data-name="Path 680" d="M760.08335,336.9351a3.78766,3.78766,0,1,0,0,7.57532H836.9178a3.78766,3.78766,0,0,0,0-7.57532Z" transform="translate(-275.16231 -336.9351)" fill="#3f3d56"/><path id="f7616677-88a5-4e4e-be2c-5696cf4c3e42-578" data-name="Path 681" d="M760.08335,359.25074a3.78767,3.78767,0,0,0,0,7.57533H836.9178a3.78767,3.78767,0,0,0,0-7.57533Z" transform="translate(-275.16231 -336.9351)" fill="#3f3d56"/><path id="b0ec98cc-856e-42d0-b3d1-ea9b3df6bb16-579" data-name="Path 682" d="M798.50117,430.02472a23.84091,23.84091,0,1,1,23.84091-23.842h0A23.86874,23.86874,0,0,1,798.50117,430.02472Z" transform="translate(-275.16231 -336.9351)" fill="#e4e4e4"/><ellipse cx="484.90215" cy="475.49165" rx="7.19508" ry="22.91937" transform="translate(-427.67489 372.91709) rotate(-64.62574)" fill="#2f2e41"/><ellipse cx="585.28661" cy="504.7203" rx="7.19508" ry="22.91937" transform="translate(-462.64755 156.53075) rotate(-39.93837)" fill="#2f2e41"/><circle cx="261.3695" cy="159.8261" r="45.83867" fill="#2f2e41"/><rect x="266.84564" y="195.8006" width="13.92567" height="24.95017" fill="#2f2e41"/><rect x="238.9943" y="195.8006" width="13.92567" height="24.95017" fill="#2f2e41"/><ellipse cx="269.16657" cy="221.04089" rx="11.60475" ry="4.35179" fill="#2f2e41"/><ellipse cx="241.31523" cy="220.46068" rx="11.60475" ry="4.35179" fill="#2f2e41"/><path d="M522.13878,439.14059c4.093-16.48357,22.16034-26.18381,40.35452-21.66607s29.6254,21.54274,25.53236,38.02632-17.67239,16.53678-35.86657,12.019S518.04574,455.6242,522.13878,439.14059Z" transform="translate(-275.16231 -336.9351)" fill="#0684cb"/><circle cx="254.51656" cy="150.15373" r="15.28261" fill="#fff"/><circle cx="248.23545" cy="144.67575" r="5.0942" fill="#3f3d56"/><path d="M539.26587,518.92927a10.18842,10.18842,0,0,1-20.04736,3.64948h0l-.00358-.01969c-1.00237-5.5369,3.27861-7.49624,8.81551-8.49855S538.26356,513.39243,539.26587,518.92927Z" transform="translate(-275.16231 -336.9351)" fill="#fff"/><ellipse cx="715.09785" cy="475.49165" rx="22.91937" ry="7.19508" transform="translate(-409.9374 15.37692) rotate(-25.37426)" fill="#2f2e41"/><ellipse cx="614.71339" cy="504.7203" rx="22.91937" ry="7.19508" transform="translate(-442.05925 315.09586) rotate(-50.06163)" fill="#2f2e41"/><circle cx="388.30588" cy="159.8261" r="45.83867" fill="#2f2e41"/><rect x="368.90407" y="195.8006" width="13.92567" height="24.95017" fill="#2f2e41"/><rect x="396.75541" y="195.8006" width="13.92567" height="24.95017" fill="#2f2e41"/><ellipse cx="380.50882" cy="221.04089" rx="11.60475" ry="4.35179" fill="#2f2e41"/><ellipse cx="408.36016" cy="220.46068" rx="11.60475" ry="4.35179" fill="#2f2e41"/><path d="M677.86122,439.14059c-4.093-16.48357-22.16034-26.18381-40.35452-21.66607s-29.6254,21.54274-25.53236,38.02632,17.67239,16.53678,35.86657,12.019S681.95426,455.6242,677.86122,439.14059Z" transform="translate(-275.16231 -336.9351)" fill="#0684cb"/><circle cx="395.15882" cy="150.15373" r="15.28261" fill="#fff"/><circle cx="401.43994" cy="144.67575" r="5.0942" fill="#3f3d56"/><path d="M660.73413,518.92927a10.18842,10.18842,0,0,0,20.04736,3.64948h0l.00358-.01969c1.00237-5.5369-3.27861-7.49624-8.81551-8.49855S661.73644,513.39243,660.73413,518.92927Z" transform="translate(-275.16231 -336.9351)" fill="#fff"/><path d="M923.647,563.0649H276.353a1.19069,1.19069,0,0,1,0-2.38137H923.647a1.19068,1.19068,0,0,1,0,2.38137Z" transform="translate(-275.16231 -336.9351)" fill="#3f3d56"/></svg>
+        <h1>Kamu Belum Booking Kost</h1>
+        <div class="menu">
+           
+          <a href="" class="button">Cari Kost</a>
+      
+        </div>
+       
+      </div>
+  
+    </div>
+    
+  </section>
+  
+  <script src="./assets/js/scriptpopup.js"></script>  
+  </body>
+</html>

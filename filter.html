@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="./assets/css/styleFilter.css" />
+    <link rel="stylesheet" href="assets/css/stylepopup.css" />
+  </head>
+  <body>
+    <div class="filters-desktop">
+      <div class="div">
+        <div class="frame">
+          <div class="text-wrapper">Tipe Kos</div>
+          <div class="frame-2">
+            <div class="type-contained" onclick="selectType(this, '.frame-2')"><div class="chip-one">All</div></div>
+            <div class="type-outline" onclick="selectType(this, '.frame-2')"><div class="chip-one-2">Putri</div></div>
+            <div class="type-outline-2" onclick="selectType(this, '.frame-2')"><div class="chip-one-2">Putra</div></div>
+            <div class="type-outline-3" onclick="selectType(this, '.frame-2')"><div class="chip-one-2">Campur</div></div>
+          </div>
+        </div>
+        <div class="frame-3">
+          <div class="text-wrapper">Kamar Mandi</div>
+          <div class="frame-4">
+            <div class="type-outline-4" onclick="selectType(this, '.frame-4')"><div class="chip-one-2">All</div></div>
+            <div class="type-outline-5" onclick="selectType(this, '.frame-4')"><div class="chip-one-3">K.Mandi Luar</div></div>
+            <div class="type-outline-4" onclick="selectType(this, '.frame-4')"><div class="chip-one-2">K.Mandi Dalam</div></div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="text-wrapper-2">Budget</div>
+          <div class="frame-5">
+            <div class="type-contained-2" onclick="selectType(this, '.frame-5')"><div class="chip-one">Per Bulan</div></div>
+            <div class="type-outline-4" onclick="selectType(this, '.frame-5')"><div class="chip-one-2">Per Tahun</div></div>
+          </div>
+        </div>
+        <div class="text-wrapper-3">Filter</div>
+        <div class="label-wrapper"><div class="label" onclick="resetFilters()">CLEAR ALL FILTERS</div></div>
+        <img class="line" src="./assets/images/line-6.svg" />
+        <div class="frame-6">
+          <div class="input">
+            <div class="left-icon-text">
+                <div class="text-area">Rp. <input type="number" step="0.01"></div>
+            </div>
+            <div class="text-area-icon"></div>
+          </div>
+          <div class="text-wrapper-5">-</div>
+          <div class="input">
+                
+<div class="text-area">Rp. <input type="number" step="0.01"></div>
+            <div class="text-area-icon"></div>
+          </div>
+        </div>
+        <div class="text-wrapper-6">Fasilitas</div>
+        <div class="frame-7">
+          <div class="check-list">
+            <input type="checkbox" class="visual-icon">
+            <div class="primary-line">Diperbolehkan Bawa hewan</div>
+          </div>
+          <div class="check-list">
+            <input type="checkbox" class="visual-icon">
+            <div class="primary-line">Dapur</div>
+          </div>
+          <div class="check-list">
+            <input type="checkbox" class="visual-icon">
+            <div class="primary-line">Jam Malam</div>
+          </div>
+          <div class="check-list">
+            <input type="checkbox" class="visual-icon">
+            <div class="primary-line">Parkiran</div>
+          </div>
+          <div class="check-list">
+            <input type="checkbox" class="visual-icon">
+            <div class="primary-line">Wc Duduk</div>
+          </div>
+          <div class="check-list">
+            <input type="checkbox" class="visual-icon">
+            <div class="primary-line">Wifi</div>
+          </div>
+        </div>
+        <div class="frame-8">
+          <div class="check-list">
+            <input type="checkbox" class="visual-icon">
+            <div class="primary-line">Kipas Angin</div>
+          </div>
+          <div class="check-list">
+            <input type="checkbox" class="visual-icon">
+            <div class="primary-line">AC</div>
+          </div>
+          <div class="check-list">
+            <input type="checkbox" class="visual-icon">
+            <div class="primary-line">Meja Kursi</div>
+          </div>
+          <div class="check-list">
+            <input type="checkbox" class="visual-icon">
+            <div class="primary-line">Lemari Baju</div>
+          </div>
+          <div class="check-list">
+            <input type="checkbox" class="visual-icon">
+            <div class="primary-line">maks 2 orang/kamar</div>
+          </div>
+          <div class="check-list">
+            <input type="checkbox" class="visual-icon">
+            <div class="primary-line">Kulkas</div>
+          </div>
+        </div>
+        <div class="overlap">
+          <div class="element-continuous-b-value">
+            <div class="text-wrapper-7">Jarak</div>
+            <div class="element-km">0KM</div>
+          </div>
+          <div class="track">
+            <div class="overlap-group">
+              <div class="track-2"></div>
+              <div class="highlight">
+                <div class="overlap-group-2">
+                  <img class="filled-circle" src="./assets/images/filled-circle.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav">
+          <div class="text-wrapper-8">
+            <a href="index.html"><img src="./assets/images/logo.jpg" alt="Your Logo"></a>
+          </div>
+          <div class="frame-9">
+            <div class="rekomendasi">
+              <a href="rekomendasiKost.html">Rekomendasi</a> 
+            </div>
+            <div class="rekomendasi-barang">
+              <a href="rekomendasiBarang.html">Rekomendasi Barang</a> 
+            </div>
+            <div class="text-wrapper-9">
+              <a onclick="toggleNotif()" class="toggle-notif">Notifikasi</a>
+            </div>
+            <img class="person-circle" src="./assets/images/person-circle.svg" id="profil" href="informasipribadi.html"/>
+          </div>
+        </div>
+        <img class="vector" src="./assets/images//vector.svg" id="vector" href="rekomendasiKost.html" />
+        <div class="frame-10">
+          <div class="primary-button" onclick="resetFilters()">
+            <div class="text-wrapper-10">Reset</div>
+          </div>
+          <div class="div-wrapper">
+            <div class="text-wrapper-11">Pakai</div>
+          </div>
+        </div>
+    </div>
+    <div class="notif">
+      <img
+        class="undraw-notify-re"
+        src="./assets/images/notif.svg"
+      />
+      <p class="text-wrapper">Tidak ada Notifikasi</p>
+    </div>
+
+    <script src="./assets/js/scriptFilter.js"></script>
+    <script src="./assets/js/scriptpopup.js"></script>
+
+  </body>
+</html>
