@@ -1,0 +1,565 @@
+.daftar-akun-pencari {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .daftar-akun-pencari .div {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1280px;
+    height: 1189px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .daftar-akun-pencari .navbar {
+    display: inline-flex;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 235px;
+    left: 114px;
+  }
+  
+  .daftar-akun-pencari .img {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-left: -5px;
+  }
+  
+  .daftar-akun-pencari .line {
+    width: 130px;
+    position: relative;
+    height: 10px;
+  }
+  
+  .daftar-akun-pencari .text-wrapper {
+    position: absolute;
+    top: 55px;
+    left: -32px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 100;
+    color: #303030;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-2 {
+    position: absolute;
+    top: 55px;
+    left: 118px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 100;
+    color: #303030;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-3 {
+    position: absolute;
+    top: 55px;
+    left: 278px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 100;
+    color: #303030;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-4 {
+    position: absolute;
+    top: 55px;
+    left: 440px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 100;
+    color: #303030;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 14px;
+  }
+  
+  .daftar-akun-pencari .nav {
+    display: flex;
+    width: 1280px;
+    height: 70px;
+    align-items: center;
+    gap: 505px;
+    padding: 20px 82px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+    border-color: #868686;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #0584ca;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .logo {
+      text-decoration: none;
+      color: rgba(6, 132, 203, 1);
+  }
+  
+  .daftar-akun-pencari .frame {
+    display: flex;
+    flex-wrap: wrap;
+    width: 563px;
+    align-items: center;
+    gap: 30px 30px;
+    position: absolute;
+    top: 124px;
+    left: 82px;
+  }
+  
+  .daftar-akun-pencari .vector {
+    position: relative;
+    width: 20px;
+    height: 17.5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-6 {
+    position: relative;
+    width: 513px;
+    margin-top: 20px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 300;
+    color: #303030;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: bold;
+    color: #303030;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .frame-2 {
+    display: inline-flex;
+    flex-direction: column;
+    height: 421px;
+    align-items: flex-start;
+    gap: 21px;
+    position: absolute;
+    top: 374px;
+    left: 82px;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: bold;
+    color: #303030;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .daftar-akun-pencari .frame-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 500;
+    color: #303030;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 100;
+    color: #303030;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 100;
+    color: #303030;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .line-2 {
+    width: 576px;
+    object-fit: cover;
+    position: relative;
+    height: 1px;
+  }
+  
+  .daftar-akun-pencari .frame-5 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 38px;
+    position: absolute;
+    top: 750px;
+    left: 82px;
+  }
+  
+  .daftar-akun-pencari .frame-6 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 39px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .daftar-akun-pencari .frame-7 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 103px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .daftar-akun-pencari .button {
+    position: relative;
+    width: 30px;
+    height: 20px;
+  }
+  
+  .daftar-akun-pencari .counter {
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #303030;
+    font-size: 18px;
+  }
+  
+  .daftar-akun-pencari .text {
+      font-family: "Poppins-Medium", Helvetica;
+      font-weight: 500;
+      color: #303030;
+      font-size: 18px;
+      margin-left: -95px;
+    }
+  
+  .daftar-akun-pencari .frame-8 {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .daftar-akun-pencari .visual-icon {
+      position: absolute;
+      width: 25px;
+      height: 30px;
+      top: 0;
+      left: 0;
+  }
+  
+  .daftar-akun-pencari .frame-8 input:checked + .text-wrapper-13 {
+      color: black;
+  }  
+  
+  .daftar-akun-pencari .text-wrapper-13 {
+    position: relative;
+    width: fit-content;
+    margin-top: 10px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--font-secondary);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 60px;
+  }
+  
+  .daftar-akun-pencari .line-3 {
+    position: relative;
+    width: 576px;
+    height: 1px;
+    margin-bottom: -1px;
+    object-fit: cover;
+  }
+  
+  .daftar-akun-pencari .div-wrapper {
+    display: flex;
+    width: 555px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 1080px;
+    left: 82px;
+    background-color: var(--primary);
+  }
+  
+  .daftar-akun-pencari .text-wrapper-14 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .frame-9 {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 33px;
+      padding: 10px;
+      position: absolute; /* Change to absolute */
+      top: 146px;
+      left: 699px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: var(--shadow);
+  }
+  
+  .daftar-akun-pencari .frame-10 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .daftar-akun-pencari .frame-11 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .daftar-akun-pencari .kost {
+    position: relative;
+    width: 180px;
+    height: 115.14px;
+  }
+  
+  .daftar-akun-pencari .frame-12 {
+    display: flex;
+    flex-direction: column;
+    width: 272px;
+    align-items: flex-start;
+    gap: 9px;
+    position: relative;
+  }
+  
+  .daftar-akun-pencari .frame-13 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    position: relative;
+    flex: 0 0 auto;
+    border: 1px solid;
+    border-color: var(--font-secondary);
+    margin-top: 10px;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-15 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 300;
+    color: #303030;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .kost-putri-bu-nindia {
+    position: relative;
+    width: 309px;
+    margin-top: -1px;
+    margin-right: -37px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #303030;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .line-4 {
+    width: 452.04px;
+    margin-bottom: -1px;
+    object-fit: cover;
+    position: relative;
+    height: 1px;
+  }
+  
+  .daftar-akun-pencari .frame-19 {
+      margin-left: -40px;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-16 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: bold;
+    color: #303030;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .frame-14 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .daftar-akun-pencari .frame-15 {
+    display: inline-flex;
+    align-items: center;
+    gap: 234px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-17 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #303030;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .frame-16 {
+    display: inline-flex;
+    align-items: center;
+    gap: 246px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .daftar-akun-pencari .frame-17 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .daftar-akun-pencari .line-5 {
+    width: 452.04px;
+    object-fit: cover;
+    position: relative;
+    height: 1px;
+  }
+  
+  .daftar-akun-pencari .frame-18 {
+    display: inline-flex;
+    align-items: center;
+    gap: 147px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    margin-left: 8px;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-18 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: bold;
+    color: #303030;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daftar-akun-pencari .text-wrapper-19 {
+      position: relative;
+      width: fit-content;
+      margin-top: -1px;
+      margin-left: 5px;
+      font-family: "Poppins-Regular", Helvetica;
+      font-weight: 400;
+      color: #303030;
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: normal;
+  }
+
+  :root {
+    --font-primary: rgba(49, 49, 49, 1);
+    --primary: rgba(6, 132, 203, 1);
+    --font-secondary: rgba(135, 135, 135, 1);
+    --shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  }
+  

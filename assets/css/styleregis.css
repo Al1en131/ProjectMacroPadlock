@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(90deg, #0684CB, #1450A3, #9EDDFF);
+
+}
+
+#container-register {
+    --font-color: #323232;
+    --main-color: #323232;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: auto;
+    width: 320px;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px var(--main-color);
+}
+
+#title {
+    position: relative;
+    font-weight: 700;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 0.35em;
+    font-size: 25px;
+    color: #000000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
+}
+
+.arrow {
+	position: relative;
+	top: 2px;
+    
+}
+ /*Input*/
+.inputContainer {
+    position: relative;
+    margin-bottom: 17px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .customInput {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.2px solid black;
+    outline: none;
+    transition: border-color 0.3s ease;
+    color: black;
+  }
+  
+  .customInput:focus,
+  .customInput:not(:placeholder-shown) {
+    border-color: black;
+  }
+
+  .inputLabel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    padding: 0px;
+    font-size: 16px;
+    color: black;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .customInput:focus + .inputLabel,
+  .customInput:not(:placeholder-shown) + .inputLabel {
+    transform: translateY(-100%) translateX(-5px) scale(0.8);
+  }
+  
+  .inputUnderline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+  }
+
+.remember-me {
+    margin: 10px 0;
+}
+
+
+
+.flex-row a{
+  text-decoration: none;
+  color: #0684CB;
+  
+}
+
+.flex-row span a:hover {
+  letter-spacing: 3px;
+}
+
+.register {
+    margin: auto;
+    padding: 16px 0;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    width: 85%;
+    align-items: center;
+    border-top: 1px solid #000000;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#register-link {
+    margin-top: 18px;
+    padding: 10px 25px;
+    background: #0684CB;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 5px;
+}

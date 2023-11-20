@@ -1,0 +1,286 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: poppins;
+  background: linear-gradient(90deg, #0684CB, #1450A3, #9EDDFF);
+
+
+}
+
+.form {
+  --background: white;
+  --input-focus: #2d8cf0;
+  --font-color: #323232;
+  --font-color-sub: #666;
+  --bg-color: #fff;
+  --main-color: #323232;
+  padding: 20px;
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  gap: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 2px var(--main-color);
+}
+
+.form > p {
+  color: var(--font-color);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.form > p > span {
+  color: var(--font-color-sub);
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.separator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+/*Atau*/
+
+.separator > div {
+  margin-top: 21px;
+  width: 180px;
+  height: 1.5px;
+  border-radius: 5px;
+  background-color: var(--font-color-sub);
+}
+
+.separator > span {
+  margin-top: 20px;
+  font-size: 15px;
+  color: var(--font-color);
+  font-weight: 600;
+}
+
+/*Button lanjutkan dengan facebook dan google*/
+
+.oauthButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: auto 15px 15px auto;
+  width: 290px;
+  height: 40px;
+  background-color: var(--bg-color);
+  box-shadow: 0.5px 0.5px 0.8px 0.8px var(--main-color);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--font-color);
+  cursor: pointer;
+  transition: all 250ms;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.oauthButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #0684CB, #1450A3, #9EDDFF);
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  transition: all 250ms;
+}
+
+.oauthButton:hover {
+  color: #e8e8e8;
+}
+
+.oauthButton:hover::before {
+  width: 100%;
+}
+
+
+.form > input {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--font-color);
+  padding: 5px 10px;
+  outline: none;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+ /*Input*/
+.inputContainer {
+  position: relative;
+  margin-bottom: 17px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customInput {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.2px solid black;
+  outline: none;
+  transition: border-color 0.3s ease;
+  color: black;
+}
+
+.customInput:focus,
+.customInput:not(:placeholder-shown) {
+  border-color: black;
+}
+
+.inputLabel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  padding: 0px;
+  font-size: 16px;
+  color: black;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.customInput:focus + .inputLabel,
+.customInput:not(:placeholder-shown) + .inputLabel {
+  transform: translateY(-100%) translateX(-5px) scale(0.8);
+}
+
+.inputUnderline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+
+/*flexbox dan lupa password*/
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.flex-row a{
+  text-decoration: none;
+  color: #0684CB;
+  
+}
+
+.flex-row span a:hover {
+  letter-spacing: 3px;
+}
+
+/*Button Login*/
+.form .login-button {
+  display: inline-block;
+  width: 100%;
+  gap: 5px;
+padding: auto 15px 15px auto;
+  background: linear-gradient(90deg, #0684CB, #1450A3, #9EDDFF);
+  color: white;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.form .login-button:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+}
+
+.form .login-button:active {
+  transform: scale(0.95);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+}
+
+.form .btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.button1 {
+  width: 147px;
+  height: 40px;
+  padding: 0.5em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background: linear-gradient(90deg, #0684CB, #1450A3, #9EDDFF);
+  color: white;
+}
+
+.button1:hover {
+  background: linear-gradient(90deg, #0684CB, #9EDDFF, #1450A3);
+  color: black;
+  letter-spacing: 1px;
+}
+
+.button2 {
+  width: 147px;
+  height: 40px;
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background: linear-gradient(90deg, #0684CB, #1450A3, #9EDDFF);
+  color: white;
+}
+
+.button2:hover {
+  background: linear-gradient(90deg, #0684CB, #9EDDFF, #1450A3);
+  color: black;
+  letter-spacing: 1px;
+}
+
+
+
